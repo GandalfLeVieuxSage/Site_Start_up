@@ -1,0 +1,182 @@
+/*
+Theme Name: Theme site ludus1C
+Theme URI: ludus1C.com
+Author: Nicolas Lehman
+Description: Themme css site web Ludus1C
+Version: 1.0
+License: Ludus1C
+License URI: Ludus1C.com
+Text Domain: ludus1C
+*/
+
+/* Déclaration font*/
+@font-face{
+
+	font-family: 'alex-brush';
+	src:url('alex-brush/LoversQuarrel-Regular.ttf');
+}
+
+*{
+	margin:0px;
+    padding:0px;
+}
+
+
+body{
+
+t
+	background-image: url("velo/bac.jpg"); 
+	/*background-attachment: scroll;*/
+	/*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+   /*background-repeat: no-x;*/
+   /*background-repeat: no-y;*/
+   /*background-repeat:;*/
+   /*background-position: 30px 50px;*/
+   /*background-repeat: top right;*/
+   /*background-position: image de font*/
+   background:url("image/velo.jpg")fixed no-repeat top left,url("image/background.jpg")fixed;
+}
+
+
+body{
+
+t
+	background-image: url("Velo2/bac.jpg"); 
+	/*background-attachment: scroll;*/
+	/*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+   /*background-repeat: no-x;*/
+   /*background-repeat: no-y;*/
+   /*background-repeat:;*/
+   /*background-position: 30px 50px;*/
+   /*background-repeat: top right;*/
+   /*background-position: image de font*/
+   background:url("image/velo2.jpg")fixed no-repeat top left,url("image/background.jpg")fixed;
+}
+
+
+h1{
+
+text-align: center;
+text-shadow: 12px 12px 12px red;
+border: 5px inset;
+border-color: black;
+border-radius: 10px 15px 20px 5px;  
+background-color: blue;
+box-shadow: 12px 12px 0px black;
+width: 50%;
+margin-left:  auto;
+margin-right: auto;
+margin:0 auto;
+}
+
+.imageflottante
+
+
+{
+	float: left;
+	
+}
+
+.fond{ 
+
+/*background-color: rgba(0,127,254,1);*/
+background-color: #ffd979;
+opacity: 0.8;
+}
+}
+ .dessous
+{
+
+clear: both;	
+}
+h2{
+
+	color:white;
+}
+ul{
+	list-style-type: none;
+}
+
+li a:hover{
+
+	color:rgb(0,127,254,1);
+    font-style: italic;
+    text-decoration: none;
+}
+
+li a:active{
+
+	color:orange;
+}
+
+li a:focus{
+
+	background-color:blue;
+}
+
+li a:visited{
+
+	color:#AAA;
+}
+/*les attributs
+   class
+   is
+*/
+
+.Titre1{
+	
+  color:grey;
+  font-size: 200%;
+  font-family:'alex-brush';
+}
+
+.Titre2{
+
+   color: grey;
+   font-size: 300%;
+   font-family: 'Shrikhand', cursive;
+}
+/*les id*/
+.Titre3{
+
+color:blue; 
+font-size: 150%;
+
+}
+#titre{
+    font-size-adjust: 150px;
+	color:#ffd979;
+    font-family:Arial, "ArialBlack",Impact,sans-serif;
+}
+
+h3+p{
+
+	color:grey;
+}
+
+a[title="jeuxvideo.com"]
+
+p{
+
+width: 40%;
+text-align: justify;
+margin-left: 0auto;
+margin-right: auto;
+padding-bottom: 2%;
+height: 200px;
+/*overflow: auto;*/
+max-width: 800px
+min-width:200px;
+border: 1px solid red;
+padding: 40px;
+margin-bottom: 50px;
+width: 200px;
+word-wrap: break-word;
+}
+	
+
+
+/*font css 
+Taille absolue en px,cm,mm(déconseillé car la taille peut-etre trop )*/
